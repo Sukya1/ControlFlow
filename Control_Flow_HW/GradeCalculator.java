@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class GradeCalculator {
+public class GradeCalculator { 
 	public static void main(String[] args) {
 		// 1. Initialize any variables and objects you need (i.e. a scanner, some
-		// counters for a total running sum, and a number tracking the # of scores inputted
+		// counters for a total running sums, and a number tracking the # of scores inputted
 		boolean indicator = true;
 		double sum = 0;
 		double average = 0;
@@ -15,7 +15,7 @@ public class GradeCalculator {
 		// 3. Add some error checking for when a user inputs a number over 100 - we
 		// should skip that input and start the loop
 		// over to ask again
-		while (indicator) {
+		while (indicator) { 
 			System.out.println("Please enter a number");
 			int val = Integer.parseInt(inputVal.nextLine());
 			if (val == -1){
